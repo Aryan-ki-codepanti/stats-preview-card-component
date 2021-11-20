@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Lexend Deca', sans-serif; */
+}
+
+:root{
+    /* Families */
+    --Family-Inter: 'Inter', sans-serif;
+    --fw-inter-400: 400;
+    --fw-inter-700: 700;
+    
+    --Family-Lexend-Deca: 'Lexend Deca', sans-serif;
+    --fw-lex-400: 400;
+
+    
+    /* ### Body Copy */
+    --Font-size: 15px;
+
+
+    /* ### Primary */
+
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+
+    /* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white-1: hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-white-2: hsla(0, 0%, 100%, 0.6);
+
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
