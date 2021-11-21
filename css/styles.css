@@ -147,3 +147,34 @@ footer{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+@media screen and (max-width: 468px){
+    .wrapper{
+        flex-direction: column-reverse;
+        padding-block: 4em;
+    }
+
+    footer{
+        position: static;
+        background: var(--Very-dark-blue);
+        padding-top: 4em;
+    }
+
+    .upper {
+        text-align: center;
+    }
+
+    .lower{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .app__left{
+        padding: 2em;
+        padding-bottom: 0; 
+    }
+}
